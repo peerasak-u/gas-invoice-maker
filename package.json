@@ -25,7 +25,9 @@
     "gsuite",
     "apps-script"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "dayjs": "^1.8.18"
+  },
   "devDependencies": {
     "@babel/core": "^7.7.5",
     "@babel/plugin-proposal-class-properties": "^7.7.4",

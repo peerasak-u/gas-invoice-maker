@@ -1,0 +1,21 @@
+export default {
+  DOC_AVAILABLE_UNTIL_DATE: 'maker_doc_available_until_date',
+  DOC_CREATED_DATE: 'maker_doc_created_date',
+  DOC_CUSTOMER_ADDRESS1: 'maker_doc_customer_address1',
+  DOC_CUSTOMER_ADDRESS2: 'maker_doc_customer_address2',
+  DOC_CUSTOMER_EMAIL: 'maker_doc_customer_email',
+  DOC_CUSTOMER_NAME: 'maker_doc_customer_name',
+  DOC_CUSTOMER_PHONE: 'maker_doc_customer_phone',
+  DOC_CUSTOMER_TAX_ID: 'maker_doc_customer_tax_id',
+  DOC_DISCOUNT: 'maker_doc_discount',
+  DOC_IS_VAT_INCLUDED: 'maker_doc_is_vat_Included',
+  DOC_ITEMS: 'maker_doc_items',
+  DOC_KEYWORDS: 'maker_doc_keywords',
+  DOC_REF_ID: 'maker_doc_ref_id',
+  DOC_SUM_OF_ITEMS: 'maker_doc_sum_of_items',
+  DOC_TYPE: 'maker_doc_type',
+  DOC_VAT: 'maker_doc_vat',
+  DOC_NOTE: 'maker_doc_note',
+  DOC_NEW_ID: 'maker_doc_new_id',
+  TYPE_CONFIG: 'maker_type_config'
+};
