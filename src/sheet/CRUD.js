@@ -187,8 +187,8 @@ const saveNewHeader = () => {
     customer.name,
     customer.address1,
     customer.address2,
-    customer.taxId,
-    customer.phone,
+    `'${customer.taxId}`,
+    `'${customer.phone}`,
     customer.email,
     note,
     keywords,
@@ -230,8 +230,8 @@ const setNewCustomer = customer => {
   spreadsheet.getRangeByName(NameRage.DOC_CUSTOMER_NAME).setValue(customer.name);
   spreadsheet.getRangeByName(NameRage.DOC_CUSTOMER_ADDRESS1).setValue(customer.address1);
   spreadsheet.getRangeByName(NameRage.DOC_CUSTOMER_ADDRESS2).setValue(customer.address2);
-  spreadsheet.getRangeByName(NameRage.DOC_CUSTOMER_TAX_ID).setValue(customer.taxId);
-  spreadsheet.getRangeByName(NameRage.DOC_CUSTOMER_PHONE).setValue(customer.phone);
+  spreadsheet.getRangeByName(NameRage.DOC_CUSTOMER_TAX_ID).setValue(`'${customer.taxId}`);
+  spreadsheet.getRangeByName(NameRage.DOC_CUSTOMER_PHONE).setValue(`'${customer.phone}`);
   spreadsheet.getRangeByName(NameRage.DOC_CUSTOMER_EMAIL).setValue(customer.email);
 };
 
